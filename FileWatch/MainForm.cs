@@ -416,7 +416,7 @@ namespace FileWatch
                     if (!temp.Directory.Exists)
                     {
                         temp.Directory.Create();
-                    }
+                    } 
 
                     File.Copy(filePath, targetPath, true);
                 }
